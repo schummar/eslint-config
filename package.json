@@ -8,7 +8,7 @@
     "name": "Marco Schumacher",
     "email": "marco@schumacher.dev"
   },
-  "main": "index.js",
+  "main": ".eslintrc.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
