@@ -5,6 +5,7 @@ module.exports = {
 
   rules: {
     indent: ['error', 2],
+    '@typescript-eslint/indent': ['error', 2],
     'unicorn/filename-case': ['error', { case: 'camelCase' }],
   },
 
