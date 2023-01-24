@@ -9,8 +9,9 @@
     "email": "marco@schumacher.dev"
   },
   "main": ".eslintrc.js",
+  "bin": "./lint.sh",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "./lint.sh"
   },
   "peerDependencies": {
     "eslint": ">=8.0.0"
