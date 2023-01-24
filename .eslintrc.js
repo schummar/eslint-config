@@ -14,6 +14,7 @@ module.exports = {
         ignore: [
           //
           /test-d\.ts$/,
+          /README\.md$/,
         ],
       },
     ],
