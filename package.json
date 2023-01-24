@@ -16,6 +16,8 @@
     "eslint": ">=8.0.0"
   },
   "dependencies": {
-    "@pvtnbr/eslint-config": "^0.33.0"
+    "@pvtnbr/eslint-config": "^0.33.0",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-prettier": "^4.2.1"
   }
 }

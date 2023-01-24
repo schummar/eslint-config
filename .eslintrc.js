@@ -1,9 +1,13 @@
 module.exports = {
-  extends: ['@pvtnbr/eslint-config'],
+  extends: [
+    '@pvtnbr/eslint-config',
+    'plugin:prettier/recommended',
+  ],
 
   rules: {
     indent: ['error', 2],
     'unicorn/filename-case': ['error', { case: 'camelCase' }],
+    'no-plusplus': 'off',
   },
 
   overrides: [
