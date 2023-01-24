@@ -2,6 +2,7 @@ lockfileVersion: 5.4
 
 specifiers:
   '@pvtnbr/eslint-config': ^0.33.0
+  '@schummar/prettier-config': schummar/prettier-config
   eslint: '>=8.0.0'
   eslint-config-prettier: ^8.6.0
   eslint-plugin-prettier: ^4.2.1
@@ -11,6 +12,9 @@ dependencies:
   eslint: 8.32.0
   eslint-config-prettier: 8.6.0_eslint@8.32.0
   eslint-plugin-prettier: 4.2.1_cn4lalcyadplruoxa5mhp7j3dq
+
+devDependencies:
+  '@schummar/prettier-config': github.com/schummar/prettier-config/2de579b5f0874c23337d368bb6560d3d02dde6a1_prettier@2.8.3
 
 packages:
 
@@ -1990,7 +1994,6 @@ packages:
     resolution: {integrity: sha512-tJ/oJ4amDihPoufT5sM0Z1SKEuKay8LfVAMlbbhnnkvt6BUserZylqo2PN+p9KeljLr0OHa2rXHU1T8reeoTrw==}
     engines: {node: '>=10.13.0'}
     hasBin: true
-    dev: false
 
   /prop-types/15.8.1:
     resolution: {integrity: sha512-oj87CgZICdulUohogVAR7AjlC0327U4el4L6eAvOqCeudMDVU0NThNaV+b9Df4dXgSP1gXMTnPdhfe/2qDH5cg==}
@@ -2477,3 +2480,14 @@ packages:
     resolution: {integrity: sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==}
     engines: {node: '>=10'}
     dev: false
+
+  github.com/schummar/prettier-config/2de579b5f0874c23337d368bb6560d3d02dde6a1_prettier@2.8.3:
+    resolution: {tarball: https://codeload.github.com/schummar/prettier-config/tar.gz/2de579b5f0874c23337d368bb6560d3d02dde6a1}
+    id: github.com/schummar/prettier-config/2de579b5f0874c23337d368bb6560d3d02dde6a1
+    name: '@schummar/prettier-config'
+    version: 1.0.0
+    peerDependencies:
+      prettier: '>=2'
+    dependencies:
+      prettier: 2.8.3
+    dev: true

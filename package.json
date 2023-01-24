@@ -19,5 +19,9 @@
     "@pvtnbr/eslint-config": "^0.33.0",
     "eslint-config-prettier": "^8.6.0",
     "eslint-plugin-prettier": "^4.2.1"
-  }
+  },
+  "devDependencies": {
+    "@schummar/prettier-config": "schummar/prettier-config"
+  },
+  "prettier": "@schummar/prettier-config"
 }

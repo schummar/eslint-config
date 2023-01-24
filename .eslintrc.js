@@ -1,13 +1,28 @@
 module.exports = {
   extends: [
+    //
     '@pvtnbr/eslint-config',
     'plugin:prettier/recommended',
   ],
 
   rules: {
     indent: ['error', 2],
-    'unicorn/filename-case': ['error', { case: 'camelCase' }],
+    'unicorn/filename-case': [
+      'error',
+      {
+        case: 'camelCase',
+        ignore: [
+          //
+          /test-d\.ts$/,
+        ],
+      },
+    ],
     'no-plusplus': 'off',
+    'max-params': 'off',
+    'func-names': 'off',
+    'prefer-destructuring': 'off',
+    'no-cond-assign': ['error', 'except-parens'],
+    'unicorn/no-this-assignment': 'off',
   },
 
   overrides: [
@@ -17,6 +32,10 @@ module.exports = {
         indent: 'off',
         '@typescript-eslint/indent': ['error', 2],
         '@typescript-eslint/no-explicit-any': 'off',
+        'no-useless-constructor': 'off',
+        '@typescript-eslint/no-useless-constructor': 'error',
+        't@typescript-eslint/no-non-null-assertion': 'off',
+        '@typescript-eslint/no-this-alias': 'off',
       },
     },
 
