@@ -9,7 +9,9 @@
     "email": "marco@schumacher.dev"
   },
   "main": ".eslintrc.js",
-  "bin": "./lint.sh",
+  "bin": {
+    "lint": "./lint.sh"
+  },
   "scripts": {
     "lint": "./lint.sh"
   },
