@@ -24,6 +24,7 @@ module.exports = {
     'prefer-destructuring': 'off',
     'no-cond-assign': ['error', 'except-parens'],
     'unicorn/no-this-assignment': 'off',
+    'no-console': ['warn', { allow: ['error', 'warn', 'debug', 'info'] }],
   },
 
   overrides: [
