@@ -26,5 +26,9 @@
   "devDependencies": {
     "@schummar/prettier-config": "schummar/prettier-config"
   },
-  "prettier": "@schummar/prettier-config"
+  "prettier": "@schummar/prettier-config",
+  "volta": {
+    "node": "18.13.0",
+    "pnpm": "7.26.0"
+  }
 }

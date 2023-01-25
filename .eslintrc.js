@@ -2,11 +2,12 @@ module.exports = {
   extends: [
     //
     '@pvtnbr/eslint-config',
+    'plugin:import/recommended',
+    'plugin:import/typescript',
     'plugin:prettier/recommended',
   ],
 
   rules: {
-    indent: ['error', 2],
     'unicorn/filename-case': [
       'error',
       {
@@ -31,8 +32,6 @@ module.exports = {
     {
       files: '*.{ts,tsx,mts,cts,vue}',
       rules: {
-        indent: 'off',
-        '@typescript-eslint/indent': ['error', 2],
         '@typescript-eslint/no-explicit-any': 'off',
         'no-useless-constructor': 'off',
         '@typescript-eslint/no-useless-constructor': 'error',
