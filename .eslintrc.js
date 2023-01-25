@@ -2,8 +2,6 @@ module.exports = {
   extends: [
     //
     '@pvtnbr/eslint-config',
-    'plugin:import/recommended',
-    'plugin:import/typescript',
     'plugin:prettier/recommended',
   ],
 
@@ -37,6 +35,7 @@ module.exports = {
         '@typescript-eslint/no-useless-constructor': 'error',
         '@typescript-eslint/no-non-null-assertion': 'off',
         '@typescript-eslint/no-this-alias': 'off',
+        '@typescript-eslint/consistent-type-imports': 'error',
       },
     },
 
