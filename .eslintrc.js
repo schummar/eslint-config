@@ -39,6 +39,8 @@ module.exports = {
         'node/file-extension-in-import': 'off',
         complexity: 'off',
         '@typescript-eslint/no-shadow': 'off',
+        'import/max-dependencies': 'off',
+        'react/prop-types': 'off',
       },
     },
 
