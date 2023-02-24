@@ -36,6 +36,9 @@ module.exports = {
         '@typescript-eslint/no-non-null-assertion': 'off',
         '@typescript-eslint/no-this-alias': 'off',
         '@typescript-eslint/consistent-type-imports': 'error',
+        'node/file-extension-in-import': 'off',
+        complexity: 'off',
+        '@typescript-eslint/no-shadow': 'off',
       },
     },
 
