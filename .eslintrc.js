@@ -3,6 +3,7 @@ module.exports = {
     //
     '@pvtnbr/eslint-config',
     'plugin:prettier/recommended',
+    'plugin:@typescript-eslint/recommended-requiring-type-checking',
   ],
 
   rules: {
@@ -29,6 +30,11 @@ module.exports = {
   overrides: [
     {
       files: '*.{ts,tsx,mts,cts,vue}',
+      parser: '@typescript-eslint/parser',
+      parserOptions: {
+        project: true,
+        tsconfigRootDir: __dirname,
+      },
       rules: {
         '@typescript-eslint/no-explicit-any': 'off',
         'no-useless-constructor': 'off',
