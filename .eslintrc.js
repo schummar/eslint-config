@@ -6,6 +6,11 @@ module.exports = {
     'plugin:@typescript-eslint/recommended-requiring-type-checking',
   ],
 
+  parser: '@typescript-eslint/parser',
+  parserOptions: {
+    project: '**/tsconfig.json',
+  },
+
   rules: {
     'unicorn/filename-case': [
       'error',
@@ -30,10 +35,6 @@ module.exports = {
   overrides: [
     {
       files: '*.{ts,tsx,mts,cts,vue}',
-      parser: '@typescript-eslint/parser',
-      parserOptions: {
-        project: '**/tsconfig.json',
-      },
       rules: {
         '@typescript-eslint/no-explicit-any': 'off',
         'no-useless-constructor': 'off',
