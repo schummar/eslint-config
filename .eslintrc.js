@@ -27,15 +27,17 @@ module.exports = {
     'import/max-dependencies': 'off',
     'react/prop-types': 'off',
     complexity: 'off',
+    'import/no-duplicates': [
+      'warn',
+      {
+        'prefer-inline': true,
+      },
+    ],
   },
 
   overrides: [
     {
       files: '*.{ts,tsx,mts,cts,vue}',
-      parser: '@typescript-eslint/parser',
-      parserOptions: {
-        project: '**/tsconfig.json',
-      },
       rules: {
         '@typescript-eslint/no-explicit-any': 'off',
         'no-useless-constructor': 'off',
