@@ -16,7 +16,8 @@
     "lint": "./lint.sh"
   },
   "peerDependencies": {
-    "eslint": ">=8.0.0"
+    "eslint": ">=8.0.0",
+    "prettier": ">=2.0.0"
   },
   "dependencies": {
     "@pvtnbr/eslint-config": "0.33.0",

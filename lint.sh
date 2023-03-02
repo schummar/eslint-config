@@ -6,4 +6,4 @@ eslint \
     --cache-strategy content \
     --max-warnings 0 \
     --no-error-on-unmatched-pattern \
-    $@
+    ${@:-.}

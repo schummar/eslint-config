@@ -32,10 +32,6 @@ module.exports = {
   overrides: [
     {
       files: '*.{ts,tsx,mts,cts,vue}',
-      extends: [
-        //
-        'plugin:@typescript-eslint/recommended-requiring-type-checking',
-      ],
       parser: '@typescript-eslint/parser',
       parserOptions: {
         project: '**/tsconfig.json',
@@ -46,11 +42,20 @@ module.exports = {
         '@typescript-eslint/no-useless-constructor': 'warn',
         '@typescript-eslint/no-non-null-assertion': 'off',
         '@typescript-eslint/no-this-alias': 'off',
-        '@typescript-eslint/consistent-type-imports': 'warn',
-        '@typescript-eslint/consistent-type-exports': 'warn',
+        '@typescript-eslint/consistent-type-imports': [
+          'warn',
+          {
+            fixStyle: 'inline-type-imports',
+          },
+        ],
+        '@typescript-eslint/consistent-type-exports': [
+          'warn',
+          {
+            fixMixedExportsWithInlineTypeSpecifier: true,
+          },
+        ],
         'node/file-extension-in-import': 'off',
         '@typescript-eslint/no-shadow': 'off',
-        't@typescript-eslint/no-unsafe-assignment': 'off',
       },
     },
 
