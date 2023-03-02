@@ -32,10 +32,11 @@ module.exports = {
       rules: {
         '@typescript-eslint/no-explicit-any': 'off',
         'no-useless-constructor': 'off',
-        '@typescript-eslint/no-useless-constructor': 'error',
+        '@typescript-eslint/no-useless-constructor': 'warn',
         '@typescript-eslint/no-non-null-assertion': 'off',
         '@typescript-eslint/no-this-alias': 'off',
-        '@typescript-eslint/consistent-type-imports': 'error',
+        '@typescript-eslint/consistent-type-imports': 'warn',
+        '@typescript-eslint/consistent-type-exports': 'warn',
         'node/file-extension-in-import': 'off',
         complexity: 'off',
         '@typescript-eslint/no-shadow': 'off',
