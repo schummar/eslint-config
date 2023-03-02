@@ -32,8 +32,7 @@ module.exports = {
       files: '*.{ts,tsx,mts,cts,vue}',
       parser: '@typescript-eslint/parser',
       parserOptions: {
-        project: true,
-        tsconfigRootDir: __dirname,
+        project: '**/tsconfig.json',
       },
       rules: {
         '@typescript-eslint/no-explicit-any': 'off',
