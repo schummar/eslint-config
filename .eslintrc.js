@@ -50,12 +50,6 @@ module.exports = {
             fixStyle: 'inline-type-imports',
           },
         ],
-        '@typescript-eslint/consistent-type-exports': [
-          'warn',
-          {
-            fixMixedExportsWithInlineTypeSpecifier: true,
-          },
-        ],
         'node/file-extension-in-import': 'off',
         '@typescript-eslint/no-shadow': 'off',
       },
