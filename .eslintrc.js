@@ -30,6 +30,7 @@ module.exports = {
     'import/no-duplicates': [
       'warn',
       {
+        considerQueryString: true,
         'prefer-inline': true,
       },
     ],
