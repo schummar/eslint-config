@@ -1,13 +1,13 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@pvtnbr/eslint-config': ^0.33.0
+  '@pvtnbr/eslint-config': 0.33.0
   '@schummar/prettier-config': schummar/prettier-config
-  eslint: ^8.35.0
-  eslint-config-prettier: ^8.6.0
-  eslint-plugin-prettier: ^4.2.1
-  prettier: ^2.8.4
-  typescript: ^4.9.5
+  eslint: 8.35.0
+  eslint-config-prettier: 8.6.0
+  eslint-plugin-prettier: 4.2.1
+  prettier: 2.8.4
+  typescript: 4.9.5
 
 dependencies:
   '@pvtnbr/eslint-config': 0.33.0_ycpbpc6yetojsgtrx3mwntkhsu
@@ -909,7 +909,7 @@ packages:
       clean-regexp: 1.0.0
       eslint: 8.35.0
       eslint-utils: 3.0.0_eslint@8.35.0
-      esquery: 1.4.0
+      esquery: 1.5.0
       indent-string: 4.0.0
       is-builtin-module: 3.2.0
       lodash: 4.17.21
@@ -1038,13 +1038,6 @@ packages:
       acorn: 8.8.2
       acorn-jsx: 5.3.2_acorn@8.8.2
       eslint-visitor-keys: 3.3.0
-
-  /esquery/1.4.0:
-    resolution: {integrity: sha512-cCDispWt5vHHtwMY2YrAQ4ibFkAL8RbH5YGBnZBc90MolvvfkkQcJro/aZiAQUlQ3qgrYS6D6v8Gc5G5CQsc9w==}
-    engines: {node: '>=0.10'}
-    dependencies:
-      estraverse: 5.3.0
-    dev: false
 
   /esquery/1.5.0:
     resolution: {integrity: sha512-YQLXUplAwJgCydQ78IMJywZCceoqk1oH01OERdSAJc/7U2AylwjhSCLDEtqwg811idIS/9fIU5GjG73IgjKMVg==}
@@ -2344,7 +2337,7 @@ packages:
       eslint-scope: 7.1.1
       eslint-visitor-keys: 3.3.0
       espree: 9.4.1
-      esquery: 1.4.0
+      esquery: 1.5.0
       lodash: 4.17.21
       semver: 7.3.8
     transitivePeerDependencies:

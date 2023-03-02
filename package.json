@@ -19,15 +19,15 @@
     "eslint": ">=8.0.0"
   },
   "dependencies": {
-    "@pvtnbr/eslint-config": "^0.33.0",
-    "eslint-config-prettier": "^8.6.0",
-    "eslint-plugin-prettier": "^4.2.1"
+    "@pvtnbr/eslint-config": "0.33.0",
+    "eslint-config-prettier": "8.6.0",
+    "eslint-plugin-prettier": "4.2.1"
   },
   "devDependencies": {
     "@schummar/prettier-config": "schummar/prettier-config",
-    "eslint": "^8.35.0",
-    "prettier": "^2.8.4",
-    "typescript": "^4.9.5"
+    "eslint": "8.35.0",
+    "prettier": "2.8.4",
+    "typescript": "4.9.5"
   },
   "prettier": "@schummar/prettier-config",
   "volta": {
