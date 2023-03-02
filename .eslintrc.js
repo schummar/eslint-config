@@ -34,6 +34,7 @@ module.exports = {
         'prefer-inline': true,
       },
     ],
+    'max-nested-callbacks': 'off',
   },
 
   overrides: [
