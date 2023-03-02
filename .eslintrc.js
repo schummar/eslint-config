@@ -28,7 +28,7 @@ module.exports = {
     'react/prop-types': 'off',
     complexity: 'off',
     'import/no-duplicates': [
-      'warn',
+      'error',
       {
         considerQueryString: true,
         'prefer-inline': true,
