@@ -3,13 +3,7 @@ module.exports = {
     //
     '@pvtnbr/eslint-config',
     'plugin:prettier/recommended',
-    'plugin:@typescript-eslint/recommended-requiring-type-checking',
   ],
-
-  parser: '@typescript-eslint/parser',
-  parserOptions: {
-    project: '**/tsconfig.json',
-  },
 
   rules: {
     'unicorn/filename-case': [
@@ -30,11 +24,22 @@ module.exports = {
     'no-cond-assign': ['error', 'except-parens'],
     'unicorn/no-this-assignment': 'off',
     'no-console': ['warn', { allow: ['error', 'warn', 'debug', 'info'] }],
+    'import/max-dependencies': 'off',
+    'react/prop-types': 'off',
+    complexity: 'off',
   },
 
   overrides: [
     {
       files: '*.{ts,tsx,mts,cts,vue}',
+      extends: [
+        //
+        'plugin:@typescript-eslint/recommended-requiring-type-checking',
+      ],
+      parser: '@typescript-eslint/parser',
+      parserOptions: {
+        project: '**/tsconfig.json',
+      },
       rules: {
         '@typescript-eslint/no-explicit-any': 'off',
         'no-useless-constructor': 'off',
@@ -44,10 +49,8 @@ module.exports = {
         '@typescript-eslint/consistent-type-imports': 'warn',
         '@typescript-eslint/consistent-type-exports': 'warn',
         'node/file-extension-in-import': 'off',
-        complexity: 'off',
         '@typescript-eslint/no-shadow': 'off',
-        'import/max-dependencies': 'off',
-        'react/prop-types': 'off',
+        't@typescript-eslint/no-unsafe-assignment': 'off',
       },
     },
 
