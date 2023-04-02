@@ -35,6 +35,7 @@ module.exports = {
       },
     ],
     'max-nested-callbacks': 'off',
+    'node/no-unpublished-import': 'off',
   },
 
   overrides: [
