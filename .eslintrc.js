@@ -56,6 +56,7 @@ module.exports = {
         'node/file-extension-in-import': 'off',
         '@typescript-eslint/no-shadow': 'off',
         '@typescript-eslint/ban-types': 'off',
+        '@typescript-eslint/no-empty-interface': 'off',
       },
     },
 
