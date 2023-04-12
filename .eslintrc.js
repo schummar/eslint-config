@@ -36,6 +36,7 @@ module.exports = {
     ],
     'max-nested-callbacks': 'off',
     'node/no-unpublished-import': 'off',
+    'unicorn/no-array-method-this-argument': 'off',
   },
 
   overrides: [
