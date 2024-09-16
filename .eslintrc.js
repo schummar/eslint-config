@@ -62,6 +62,7 @@ module.exports = {
         '@typescript-eslint/no-shadow': 'off',
         '@typescript-eslint/ban-types': 'off',
         '@typescript-eslint/no-empty-interface': 'off',
+        '@typescript-eslint/no-empty-object-type': 'off',
       },
     },
   ],
