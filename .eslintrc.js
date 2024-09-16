@@ -46,7 +46,16 @@ module.exports = {
     {
       files: '*.{ts,tsx,mts,cts,vue}',
       rules: {
-        '@typescript-eslint/no-unused-vars': ['warn', { argsIgnorePattern: '^_' }],
+        '@typescript-eslint/no-unused-vars': [
+          'warn',
+          {
+            args: 'after-used',
+            argsIgnorePattern: '^_',
+            caughtErrorsIgnorePattern: '^_',
+            destructuredArrayIgnorePattern: '^_',
+            ignoreRestSiblings: true,
+          },
+        ],
         '@typescript-eslint/no-explicit-any': 'off',
         'no-useless-constructor': 'off',
         '@typescript-eslint/no-useless-constructor': 'warn',
